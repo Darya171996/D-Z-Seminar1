@@ -13,17 +13,16 @@ Console.WriteLine("Введите число 2");
 int num2 = Convert.ToInt32(Console.ReadLine());
 
 
-int max = num1;
-int min = num2;
 
-if (num2 > max)
+
+if (num2 > num1)
 {
-    Console.WriteLine("max="+num2 + "min="+num1);
+    Console.WriteLine($"max= {num2} min= {num1}");
 }
 
 
-else 
+else
 {
-    Console.WriteLine("max="+num1 + "min="+num2);
+    Console.WriteLine($"max= {num1} min= {num2}");
 }
 
